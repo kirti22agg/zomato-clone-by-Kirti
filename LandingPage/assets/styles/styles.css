@@ -2,3 +2,33 @@
 padding: 0px;
 box-sizing: border-box;
 text-decoration: none;}
+
+a{ color:unset}
+
+header { 
+    background-image: url('../images/hero.png');
+    background-position: center;
+    background-size: cover;
+    height: 60vh;}
+
+/*navbar styles*/
+
+nav{ display: flex;
+     justify-content: space-between;
+     align-items: center;
+     padding: 25px 0px;
+     flex-direction: row;
+    width: 90%;
+    margin: 0px auto;}
+
+nav .nav-item{ color: white;
+               margin: 0px 10px;}
+
+nav div.container{ display: flex;}
+
+nav div.nav-item.app{font-size: 0.9rem;
+                    font-weight: 900;}
+
+nav div.nav-item{ font-weight: 200;
+                 font-size: 1.2rem;}
+
