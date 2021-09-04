@@ -85,6 +85,7 @@ header div.search-box div.input{
 header div.search-box div.input input{
     width: 100%;
     font-size: 1rem;
+    align-self: center;
 }
 
 div.search-box div{
@@ -92,6 +93,11 @@ div.search-box div{
     align-items: center;
     height: 50px;
     margin: 0px 50px;
+}
+header div.search-box div.select select{
+    flex-grow: 1;
+    font-size: 1rem;
+    color: #757575;
 }
 
 
