@@ -150,10 +150,75 @@ header div.search-box div.select select{
  }
 
  section.app div.container img{
-     display: block !important;
+     display: block;
      max-width: 300px;
  }
- 
+
+ section.app div.container div.form{
+     max-width: 485px;
+
+ }
+ section.app div.container div.form h1{
+     font-size: 2.5rem;
+     font-weight: unset;
+ }
+ section.app div.container div.form small{
+     display: block;
+     font-size: 1.1rem;
+     font-weight: 100;
+     color: #393737;
+     margin: 20px 0px;
+ }
+ /*radio button styles*/
+
+
+
+ /*  */
+ section.app div.input{
+     width: 100%;
+     display: flex;
+     align-items: center;
+     height: 50px;
+ }
+
+ section.app div.input input{
+     flex-grow: 70;
+     background-color: white;
+     border: 1px solid #cfcfcf;
+     font-size: 1.2rem;
+     padding-left: 10px;
+     border-radius: 5px;
+     height: 100%;
+     margin: 0px 10px 0px 0px;
+}
+section.app div.input button{
+    font-size: 1rem;
+     padding-left: 10px;
+     border-radius: 5px;
+     height: 100%;
+     border: 1px solid #cfcfcf;
+     background-color:#ED5A6B ;
+     color: white;
+     padding-left: 5px;
+     padding-right: 5px;
+
+
+}
+
+section.app div.download{
+    margin: 20px 0px;
+    color: rgb(170, 161, 161);
+
+
+}
+section.app div.icons img{
+    max-width: 150px;
+    display: inline-block;
+    margin-right: 10px;
+    margin-top: 13px;
+}
+
+
 
 
 
