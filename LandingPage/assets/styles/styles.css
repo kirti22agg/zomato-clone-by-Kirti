@@ -135,6 +135,25 @@ header div.search-box div.select select{
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
     cursor: pointer;
  }
+ /*app section*/
+
+ section.app{
+     min-height: 300px;
+     background-color: #FEFBF6;
+ }
+ section.app div.container{
+     width: 70%;
+     margin:0px auto;
+     display: flex;
+     align-items: center;
+     justify-content: space-around;
+ }
+
+ section.app div.container img{
+     display: block !important;
+     max-width: 300px;
+ }
+ 
 
 
 
