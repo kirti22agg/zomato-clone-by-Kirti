@@ -219,6 +219,7 @@ section.app div.icons img{
 }
 
 /* options section */
+
 section.options{
     min-height: 60vh;
 }
@@ -249,6 +250,120 @@ section.options div.container div ul li {
     color: grey;
     font-weight: 100;
  }
+
+ /* footer */
+
+ section.footer{
+     min-height: 60vh;
+     background-color: rgb(248, 247, 247);
+ }
+ section.footer div.bar div.logo img{
+     width: 140px;
+ }
+ section.footer div.bar div.origin img{
+     width: 30px;
+ }
+  section.footer div.bar{
+      display: flex;
+      justify-content: space-between;
+      width: 90%;
+      margin: 30px auto;
+      padding: 30px;
+  }
+  section.footer div.bar div.origin {
+      display: flex;
+      justify-content: space-evenly;
+  }
+  section.footer div.bar div.origin div.country{
+      border: 1px solid #cfcfcf;
+      padding: 10px;
+      border-radius: 5px;
+      margin-right: 20px;
+    
+    
+  }
+  section.footer div.bar div.origin div.language
+  {
+    border: 1px solid #cfcfcf;
+    padding: 10px;
+    border-radius: 5px;
+  }
+  section.footer div.bar div.origin select{
+    font-size: 1.2rem;
+    align-self: center;
+  }
+  section.footer div.container{
+    display:flex;
+}
+  section.footer div.company {
+      display: flex;
+      flex-direction: column;
+      width: 15%;
+      justify-content: space-evenly;
+      align-items: flex-start;
+      margin: 30px auto;
+    
+  }
+  
+  section.footer div.company div{
+      padding-top: 7px;
+      color: grey;
+  }
+  section.footer div.company h4{
+      font-weight: 400;
+  }
+  section.footer div.foodies{
+    display: flex;
+    flex-direction: column;
+    width: 15%;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    margin: 30px auto;
+
+  }
+  section.footer div.foodies div{
+    padding-top: 7px;
+    color: grey;
+}
+section.footer div.foodies h4{
+    font-weight: 400;
+}
+section.footer div.restaurants{
+    display: flex;
+    flex-direction: column;
+    width: 15%;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    margin: 30px auto;
+
+  }
+  section.footer div.restaurants div{
+    padding-top: 7px;
+    color: grey;
+}
+section.footer div.restaurants h4{
+    font-weight: 400;
+}
+section.footer div.for-you{
+    display: flex;
+    flex-direction: column;
+    width: 15%;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    margin: 30px auto;
+
+  }
+  section.footer div.for-you div{
+    padding-top: 7px;
+    color: grey;
+}
+section.footer div.for-you h4{
+    font-weight: 400;
+}
+
+
+  
+
 
 
 
