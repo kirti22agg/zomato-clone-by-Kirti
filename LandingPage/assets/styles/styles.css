@@ -294,6 +294,8 @@ section.options div.container div ul li {
   }
   section.footer div.container{
     display:flex;
+    width: 90%;
+    margin: auto;
 }
   section.footer div.company {
       display: flex;
@@ -360,6 +362,50 @@ section.footer div.for-you{
 section.footer div.for-you h4{
     font-weight: 400;
 }
+
+section.footer div.social{
+    display: flex;
+    flex-direction: column;
+    width: 15%;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    margin: 30px auto;
+
+  }
+
+section.footer div.social h4{
+    font-weight: 400;
+}
+section.footer div.social div.icons{
+    padding-top: 10px;
+}
+section.footer div.social div.icons i{
+    width: 20px;
+}
+section.footer div.social div.download{
+    padding-top: 20px;
+}
+section.footer div.social div.download img{
+    max-width: 150px;
+    padding-bottom: 6px;
+}
+section.footer div.policy{
+    width: 90%;
+    margin: 30px auto;
+    color: grey;
+    font-weight: unset;
+    font-size: 1rem;
+
+}
+section.footer hr {
+    display: block;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: inset;
+    border-width: 1px;
+  }
 
 
   
